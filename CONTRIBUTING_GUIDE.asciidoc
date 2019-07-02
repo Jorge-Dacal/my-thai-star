@@ -151,7 +151,7 @@ image::images/contributing/pr_commenting.PNG[Commenting on pull requests, width=
 
 * *CI based reviews*
 +
-CI Systems like https://jenkins.io/[Jenkins] or https://travis-ci.org/[Travis.ci] are able to listen for new pull requests on specified projects. As soon as the request was made, Travis for example checks out the to-be-merged branch and builds it. This enables an automated build which could even include testcases. Finally, the CI approves the pull requests if the build was built and tested successfully, otherwise it'll let the project members know that something went wrong.
+CI Systems like https://jenkins.io/[Jenkins] or https://travis-ci.com/[Travis.ci] are able to listen for new pull requests on specified projects. As soon as the request was made, Travis for example checks out the to-be-merged branch and builds it. This enables an automated build which could even include testcases. Finally, the CI approves the pull requests if the build was built and tested successfully, otherwise it'll let the project members know that something went wrong.
 +
 .If Travis fails to build a project, it'll post the results directly to the pull request
 image::images/contributing/travis_failure.png[Travis failed to build, width="450", link="images/contributing/travis_failure.png"]
